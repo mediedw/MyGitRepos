@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InterviewTaskScheduler", "InterviewTaskScheduler\InterviewTaskScheduler.vcxproj", "{FBE3CE07-D553-467B-97C6-87B8CDBFC1A4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InterviewTaskSchedulerClient", "InterviewTaskSchedulerClient\InterviewTaskSchedulerClient.vcxproj", "{4FC77DEA-18D3-4640-B678-8944C6804ABB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FBE3CE07-D553-467B-97C6-87B8CDBFC1A4} = {FBE3CE07-D553-467B-97C6-87B8CDBFC1A4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InterviewTaskSchedulerUnitTest", "InterviewTaskSchedulerUnitTest\InterviewTaskSchedulerUnitTest.vcxproj", "{B685AD93-AB0D-4197-B3D6-BADDE243D812}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBE3CE07-D553-467B-97C6-87B8CDBFC1A4}.Debug|x64.ActiveCfg = Debug|x64
+		{FBE3CE07-D553-467B-97C6-87B8CDBFC1A4}.Debug|x64.Build.0 = Debug|x64
+		{FBE3CE07-D553-467B-97C6-87B8CDBFC1A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{FBE3CE07-D553-467B-97C6-87B8CDBFC1A4}.Debug|x86.Build.0 = Debug|Win32
+		{FBE3CE07-D553-467B-97C6-87B8CDBFC1A4}.Release|x64.ActiveCfg = Release|x64
+		{FBE3CE07-D553-467B-97C6-87B8CDBFC1A4}.Release|x64.Build.0 = Release|x64
+		{FBE3CE07-D553-467B-97C6-87B8CDBFC1A4}.Release|x86.ActiveCfg = Release|Win32
+		{FBE3CE07-D553-467B-97C6-87B8CDBFC1A4}.Release|x86.Build.0 = Release|Win32
+		{4FC77DEA-18D3-4640-B678-8944C6804ABB}.Debug|x64.ActiveCfg = Debug|x64
+		{4FC77DEA-18D3-4640-B678-8944C6804ABB}.Debug|x64.Build.0 = Debug|x64
+		{4FC77DEA-18D3-4640-B678-8944C6804ABB}.Debug|x86.ActiveCfg = Debug|Win32
+		{4FC77DEA-18D3-4640-B678-8944C6804ABB}.Debug|x86.Build.0 = Debug|Win32
+		{4FC77DEA-18D3-4640-B678-8944C6804ABB}.Release|x64.ActiveCfg = Release|x64
+		{4FC77DEA-18D3-4640-B678-8944C6804ABB}.Release|x64.Build.0 = Release|x64
+		{4FC77DEA-18D3-4640-B678-8944C6804ABB}.Release|x86.ActiveCfg = Release|Win32
+		{4FC77DEA-18D3-4640-B678-8944C6804ABB}.Release|x86.Build.0 = Release|Win32
+		{B685AD93-AB0D-4197-B3D6-BADDE243D812}.Debug|x64.ActiveCfg = Debug|x64
+		{B685AD93-AB0D-4197-B3D6-BADDE243D812}.Debug|x64.Build.0 = Debug|x64
+		{B685AD93-AB0D-4197-B3D6-BADDE243D812}.Debug|x86.ActiveCfg = Debug|Win32
+		{B685AD93-AB0D-4197-B3D6-BADDE243D812}.Debug|x86.Build.0 = Debug|Win32
+		{B685AD93-AB0D-4197-B3D6-BADDE243D812}.Release|x64.ActiveCfg = Release|x64
+		{B685AD93-AB0D-4197-B3D6-BADDE243D812}.Release|x64.Build.0 = Release|x64
+		{B685AD93-AB0D-4197-B3D6-BADDE243D812}.Release|x86.ActiveCfg = Release|Win32
+		{B685AD93-AB0D-4197-B3D6-BADDE243D812}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

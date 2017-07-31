@@ -1,0 +1,5 @@
+﻿  InterviewTaskScheduler.cpp
+c:\users\edwardo\documents\visual studio 2015\projects\interviewtaskscheduler\interviewtaskscheduler\interviewtaskscheduler.cpp(115): warning C4996: '_wgetenv': This function or variable may be unsafe. Consider using _wdupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_wstdlib.h(416): note: see declaration of '_wgetenv'
+  InterviewTaskScheduler.vcxproj -> C:\Users\Edwardo\Documents\Visual Studio 2015\Projects\InterviewTaskScheduler\Debug\InterviewTaskScheduler.dll
+  InterviewTaskScheduler.vcxproj -> C:\Users\Edwardo\Documents\Visual Studio 2015\Projects\InterviewTaskScheduler\Debug\InterviewTaskScheduler.pdb (Full PDB)
